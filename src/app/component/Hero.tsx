@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-white text-purple-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold leading-normal">
-            SỰ KHÁC BIỆT TRONG STOCK TRADING CỦA CHÚNG TÔI
+            SỰ KHÁC BIỆT TRONG Stock Traders AI CỦA CHÚNG TÔI
           </h2>
           <p className="mt-2 text-purple-600">
             Cùng khám phá những lợi ích vượt trội

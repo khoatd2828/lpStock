@@ -23,32 +23,20 @@ const Footer: React.FC = () => {
                     rel="noopener noreferrer"
                     className="hover:underline text-blue-300"
                   >
-                    www.STOCKEXCHANGE.com
+                    www.StockTraderAI.com
                   </a>
                 </p>
                 <p className="text-sm">
                   Email:{" "}
                   <a
-                    href="mailto:eservices@STOCKEXCHANGE.com"
+                    href="mailto:eservices@StockTraderAI.com"
                     className="hover:underline text-blue-300"
                   >
-                    eservices@STOCKEXCHANGE.com
+                    eservices@StockTraderAI.com
                   </a>
                 </p>
                 <p className="text-sm">Phone: 0908070605</p>
               </div>
-            </div>
-            <div className="mt-4 md:text-start text-center">
-              <p className="text-sm">
-                Hotline:{" "}
-                <a
-                  href="tel:18001234"
-                  className="hover:underline text-blue-300 font-bold"
-                >
-                  1800 1234
-                </a>{" "}
-                (24/7 Support)
-              </p>
             </div>
           </div>
 
