@@ -4,13 +4,13 @@ const Hero: React.FC = () => {
   return (
     <div>
       <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 gap-10">
+        <div className="w-full container mx-auto grid grid-cols-1 lg:grid-cols-[2fr_3fr] items-center gap-10 md:gap-0">
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
               Ứng dụng khuyến nghị trực tuyến <br />
             </h1>
             <p className="mt-6 text-lg">
-              Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu.
+              Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu hoàn toàn miễn phí. Ưu điểm vượt trội là nhanh và đạt hiệu quả cao trên thị trường cổ phiếu Việt Nam
             </p>
             <div className="mt-8 flex space-x-4">
               <button className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-full text-lg">
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
             <img
               src="/images/stock-features.png"
               alt="Chart Illustration"
-              className="w-[900px] h-auto rounded-lg"
+              className="w-[1000px] h-auto rounded-lg"
             />
           </div>
         </div>
