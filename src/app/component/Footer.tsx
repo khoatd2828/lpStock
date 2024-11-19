@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                     rel="noopener noreferrer"
                     className="hover:underline text-blue-300"
                   >
-                    www.stocktraders.vn
+                    stocktradersai.vn
                   </a>
                 </p>
                 <p className="text-sm">
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                     href=""
                     className="hover:underline text-blue-300"
                   >
-                    info@stocktraders.vn
+                    info@stocktradersai.vn
                   </a>
                 </p>
                 <p className="text-sm">Phone: 0908070605</p>
@@ -59,14 +59,6 @@ const Footer: React.FC = () => {
                     className="hover:text-gray-300 text-white transition"
                   >
                     Giới thiệu
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:text-gray-300 text-white transition"
-                  >
-                    Services
                   </a>
                 </li>
                 <li>

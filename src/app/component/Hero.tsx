@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 gap-10">
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
-            App ứng dụng khuyến nghị trực tuyến <br />
+              Ứng dụng khuyến nghị trực tuyến <br />
               <span className="font-bold">STOCKTRADERS AI</span>
             </h1>
             <p className="mt-6 text-lg">
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Ứng dụng cài đặt trên Ios và Android</span>
+                  <span>Ứng dụng cài đặt trên iOS và Android</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -137,7 +137,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Sản phẩm của thị trường chứng khoáng VN</span>
+                  <span>Sản phẩm của thị trường chứng khoáng Việt Nam</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
