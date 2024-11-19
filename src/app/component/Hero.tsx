@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 md:gap-20 gap-10">
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
-              StockTrader AI <br />
+              StockTraders AI <br />
               <span className="text-purple-300">PLATFORM</span>
             </h1>
             <p className="mt-6 text-lg">
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-white text-purple-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold leading-normal">
-            SỰ KHÁC BIỆT TRONG Stock Traders AI CỦA CHÚNG TÔI
+            SỰ KHÁC BIỆT TRONG StockTraders AI CỦA CHÚNG TÔI
           </h2>
           <p className="mt-2 text-purple-600">
             Cùng khám phá những lợi ích vượt trội
