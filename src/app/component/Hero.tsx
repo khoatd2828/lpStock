@@ -4,22 +4,22 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <div>
-      <section className="relative bg-gradient-to-r from-blue-900 to-blue-600 text-white min-h-screen flex">
+      <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 md:gap-20 gap-10">
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
               STOCK EXCHANGE <br />
-              <span className="text-blue-300">PLATFORM</span>
+              <span className="text-purple-300">PLATFORM</span>
             </h1>
             <p className="mt-6 text-lg">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Exceptuer sint occaecat.
             </p>
             <div className="mt-8 flex space-x-4">
-              <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full text-lg">
+              <button className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-full text-lg">
                 See More
               </button>
-              <button className="border border-white text-white px-6 py-3 rounded-full text-lg hover:bg-white hover:text-blue-600">
+              <button className="border border-white text-white px-6 py-3 rounded-full text-lg hover:bg-white hover:text-purple-600">
                 Register
               </button>
             </div>
@@ -33,15 +33,15 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-white text-blue-900">
+      <section className="py-16 bg-white text-purple-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold leading-normal">
             SỰ KHÁC BIỆT TRONG STOCK TRADING CỦA CHÚNG TÔI
           </h2>
-          <p className="mt-2 text-blue-600">
+          <p className="mt-2 text-purple-600">
             Cùng khám phá những lợi ích vượt trội
           </p>
-          <div className="h-1 w-16 bg-blue-600 mx-auto mt-4"></div>
+          <div className="h-1 w-16 bg-purple-600 mx-auto mt-4"></div>
         </div>
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
           <div className="flex flex-col items-center text-center">
@@ -81,18 +81,18 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-blue-50 text-blue-900">
+      <section className="py-16 bg-purple-50 text-purple-900">
         <div className="container mx-auto md:px-40">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold uppercase leading-normal">
               CÁC TÍNH NĂNG CỦA NỀN TẢNG
             </h2>
-            <p className="mt-2 text-blue-600">
+            <p className="mt-2 text-purple-600">
               Giải pháp tối ưu cho giao dịch chứng khoán
             </p>
-            <div className="h-1 w-16 bg-blue-600 mx-auto mt-4"></div>
+            <div className="h-1 w-16 bg-purple-600 mx-auto mt-4"></div>
           </div>
-          <div className="flex md:flex-wrap flex-col items-start mx-4 md:mx-0">
+          <div className="flex md:flex-row flex-wrap flex-col items-start mx-4 md:mx-0">
             <div className="flex-1 mb-16">
               <ul className="space-y-4 text-lg">
                 <li className="flex items-center space-x-3">
@@ -163,12 +163,12 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-gray-100 text-blue-900">
+      <section className="py-16 bg-white text-purple-900">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <h2 className="text-3xl font-bold uppercase leading-normal">
             Vì Sao Nên Giao Dịch Trên Nền Tảng Của Chúng Tôi
           </h2>
-          <div className="h-1 w-16 bg-blue-500 mx-auto my-4"></div>
+          <div className="h-1 w-16 bg-purple-500 mx-auto my-4"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
             <div className="flex flex-col items-center">
               <img
@@ -218,19 +218,19 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-purple-50">
         <div className="container mx-auto px-6 lg:px-20 text-center">
-          <h2 className="text-3xl font-bold uppercase text-blue-900 leading-normal">
+          <h2 className="text-3xl font-bold uppercase text-purple-900 leading-normal">
             Quy Trình Giao Dịch Chứng Khoán
           </h2>
-          <div className="h-1 w-16 bg-blue-300 mx-auto my-4"></div>
+          <div className="h-1 w-16 bg-purple-300 mx-auto my-4"></div>
           <div className="flex flex-col lg:flex-row justify-center mt-8">
             {/* Step 1 */}
             <div className="flex-1 px-4 py-6">
-              <div className="flex items-center justify-center w-16 h-16 bg-blue-900 text-white rounded-full text-2xl mx-auto mb-4">
+              <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-xl font-semibold text-blue-900">
+              <h3 className="text-xl font-semibold text-purple-900">
                 Đăng Ký Tài Khoản
               </h3>
               <p className="mt-2 text-gray-600">
@@ -240,10 +240,10 @@ const Hero: React.FC = () => {
             </div>
             {/* Step 2 */}
             <div className="flex-1 px-4 py-6">
-              <div className="flex items-center justify-center w-16 h-16 bg-blue-900 text-white rounded-full text-2xl mx-auto mb-4">
+              <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-semibold text-blue-900">
+              <h3 className="text-xl font-semibold text-purple-900">
                 Nạp Tiền Giao Dịch
               </h3>
               <p className="mt-2 text-gray-600">
@@ -252,10 +252,10 @@ const Hero: React.FC = () => {
             </div>
             {/* Step 3 */}
             <div className="flex-1 px-4 py-6">
-              <div className="flex items-center justify-center w-16 h-16 bg-blue-900 text-white rounded-full text-2xl mx-auto mb-4">
+              <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-semibold text-blue-900">Giao Dịch</h3>
+              <h3 className="text-xl font-semibold text-purple-900">Giao Dịch</h3>
               <p className="mt-2 text-gray-600">
                 Mua và bán cổ phiếu theo thời gian thực với công cụ hỗ trợ mạnh
                 mẽ.
@@ -263,10 +263,10 @@ const Hero: React.FC = () => {
             </div>
             {/* Step 4 */}
             <div className="flex-1 px-4 py-6">
-              <div className="flex items-center justify-center w-16 h-16 bg-blue-900 text-white rounded-full text-2xl mx-auto mb-4">
+              <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 4
               </div>
-              <h3 className="text-xl font-semibold text-blue-900">
+              <h3 className="text-xl font-semibold text-purple-900">
                 Theo Dõi Danh Mục
               </h3>
               <p className="mt-2 text-gray-600">

@@ -2,20 +2,20 @@
 import { useState } from "react";
 
 const Header: React.FC = () => {
-  const [activeButton, setActiveButton] = useState<string>("");
+  // const [activeButton, setActiveButton] = useState<string>("");
 
-  const handleButtonClick = (buttonName: string) => {
-    setActiveButton(buttonName);
-  };
+  // const handleButtonClick = (buttonName: string) => {
+  //   setActiveButton(buttonName);
+  // };
 
-  const [menuOpen, setMenuOpen] = useState<boolean>(false);
+  // const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setMenuOpen(!menuOpen);
+  // };
 
   return (
-    <header className="flex justify-between items-center md:px-6 py-4 px-3 bg-blue-900 shadow-md">
+    <header className="flex justify-between items-center md:px-6 py-4 px-3 bg-purple-900 shadow-lg">
       <div className="flex items-center space-x-6">
         <a href="#" className="flex items-center max-w-full">
           <img
@@ -24,7 +24,10 @@ const Header: React.FC = () => {
             className="w-10 h-10 object-contain"
           />
         </a>
-        <button
+        <div className="hidden md:flex">
+          <h1 className="text-white mt-[4px] mr-5">Stock Traders</h1>
+        </div>
+        {/* <button
           className="block md:hidden text-white focus:outline-none"
           onClick={toggleMenu}
         >
@@ -42,51 +45,45 @@ const Header: React.FC = () => {
               d="M4 6h16M4 12h16m-7 6h7"
             />
           </svg>
-        </button>
-        <nav
+        </button> */}
+        {/* <nav
           className={`${
             menuOpen ? "block" : "hidden"
-          } absolute top-16 left-[-24px]  w-full bg-blue-900 md:static md:block md:w-auto md:bg-transparent flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-6 px-6 md:px-0 z-50`}
+          } absolute top-16 left-0 w-full md:static md:block md:w-auto flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-20 px-6 md:px-0 z-50`}
         >
-          <a href="#" className="hover:text-blue-300 text-white md-text-align text-center">
-            Home
-          </a>
-          <a href="#" className="hover:text-blue-300 text-white md-text-align text-center">
-            Service
-          </a>
-          <a href="#" className="hover:text-blue-300 text-white md-text-align text-center">
-            About
-          </a>
-          <a href="#" className="hover:text-blue-300 text-white md-text-align text-center">
-            Product
-          </a>
-          <a href="#" className="hover:text-blue-300 text-white md-text-align text-center">
-            Contact
-          </a>
-        </nav>
+          {["Home", "Service", "About", "Product", "Contact"].map((item) => (
+            <a
+              key={item}
+              href="#"
+              className="hover:text-blue-400 text-white text-center md:text-left transition duration-300"
+            >
+              {item}
+            </a>
+          ))}
+        </nav> */}
       </div>
-      <div className="flex space-x-4">
+      {/* <div className="flex space-x-4">
         <button
-          className={`md:px-4 md:py-2 md:p-0 p-2 rounded-full ${
+          className={`md:px-4 md:py-2 md:p-0 p-2 rounded-full transition duration-300 ${
             activeButton === "signIn"
-              ? "bg-white text-blue-600"
-              : "text-blue-300 hover:text-white"
+              ? "bg-pink-500 text-white hover:bg-pink-400"
+              : "bg-white text-blue-600 hover:bg-blue-400 hover:text-white"
           }`}
           onClick={() => handleButtonClick("signIn")}
         >
           Sign In
         </button>
         <button
-          className={`md:px-4 md:py-2 md:p-0 p-2 rounded-full ${
+          className={`md:px-4 md:py-2 md:p-0 p-2 rounded-full transition duration-300 ${
             activeButton === "register"
-              ? "bg-white text-blue-600"
-              : "text-blue-300 hover:text-white"
+              ? "bg-purple-500 text-white hover:bg-purple-400"
+              : "bg-white text-blue-600 hover:bg-blue-400 hover:text-white"
           }`}
           onClick={() => handleButtonClick("register")}
         >
           Register
         </button>
-      </div>
+      </div> */}
     </header>
   );
 };
