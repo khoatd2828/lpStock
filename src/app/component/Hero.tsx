@@ -1,19 +1,17 @@
-// Hero.tsx
 import React from "react";
 
 const Hero: React.FC = () => {
   return (
     <div>
       <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 md:gap-20 gap-10">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 gap-10">
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
-              StockTraders AI <br />
-              <span className="text-purple-300">PLATFORM</span>
+            App ứng dụng khuyến nghị trực tuyến <br />
+              <span className="font-bold">STOCKTRADERS AI</span>
             </h1>
             <p className="mt-6 text-lg">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Exceptuer sint occaecat.
+              Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu.
             </p>
             <div className="mt-8 flex space-x-4">
               <button className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-full text-lg">
@@ -26,9 +24,9 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex justify-center lg:justify-end pb-16">
             <img
-              src="/images/stock.png"
+              src="/images/stock-features.png"
               alt="Chart Illustration"
-              className="w-[700px] h-auto"
+              className="w-[900px] h-auto rounded-lg"
             />
           </div>
         </div>
@@ -36,7 +34,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-white text-purple-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold leading-normal">
-            SỰ KHÁC BIỆT TRONG StockTraders AI CỦA CHÚNG TÔI
+            SỰ KHÁC BIỆT TRONG STOCKTRADERS AI CỦA CHÚNG TÔI
           </h2>
           <p className="mt-2 text-purple-600">
             Cùng khám phá những lợi ích vượt trội
@@ -50,9 +48,9 @@ const Hero: React.FC = () => {
               alt="Low Cost"
               className="w-24 h-24 mb-4"
             />
-            <h3 className="font-bold text-lg">CHI PHÍ THẤP</h3>
+            <h3 className="font-bold text-lg">MIỄN PHÍ</h3>
             <p className="mt-2 text-sm">
-              Phí giao dịch cạnh tranh, mang lại hiệu quả tối đa cho nhà đầu tư.
+              Sử dung bộ tín hiệu miễn phí 100%.
             </p>
           </div>
           <div className="flex flex-col items-center text-center">
@@ -61,22 +59,20 @@ const Hero: React.FC = () => {
               alt="Secure"
               className="w-24 h-24 mb-4"
             />
-            <h3 className="font-bold text-lg">AN TOÀN VÀ BẢO MẬT</h3>
+            <h3 className="font-bold text-lg">ỨNG DỤNG AI</h3>
             <p className="mt-2 text-sm">
-              Hệ thống bảo mật hiện đại, đảm bảo an toàn tuyệt đối cho tài
-              khoản.
+              Sử dụng Machine Learning, Deep Learning để phân tích dữ liệu.
             </p>
           </div>
-          {/* Feature 3 */}
           <div className="flex flex-col items-center text-center">
             <img
               src="/images/profit.png"
               alt="High Profit"
               className="w-24 h-24 mb-4"
             />
-            <h3 className="font-bold text-lg">LỢI NHUẬN CAO</h3>
+            <h3 className="font-bold text-lg">HIỆU SUẤT CAO</h3>
             <p className="mt-2 text-sm">
-              Tư vấn chuyên sâu giúp bạn đầu tư hiệu quả và sinh lời tối ưu.
+              Xác suất đúng trên 60%, trung bình lãi lỗ là 2.0.
             </p>
           </div>
         </div>
@@ -85,15 +81,15 @@ const Hero: React.FC = () => {
         <div className="container mx-auto md:px-40">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold uppercase leading-normal">
-              CÁC TÍNH NĂNG CỦA NỀN TẢNG
+              CÁC TÍNH NĂNG CỦA ỨNG DỤNG
             </h2>
             <p className="mt-2 text-purple-600">
-              Giải pháp tối ưu cho giao dịch chứng khoán
+              Sử dụng bộ tín hiệu miễn phí
             </p>
             <div className="h-1 w-16 bg-purple-600 mx-auto mt-4"></div>
           </div>
           <div className="flex md:flex-row flex-wrap flex-col items-start mx-4 md:mx-0">
-            <div className="flex-1 mb-16">
+            <div className="flex-1 mb-16 mt-3">
               <ul className="space-y-4 text-lg">
                 <li className="flex items-center space-x-3">
                   <img
@@ -101,7 +97,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Hỗ trợ giao dịch trên mọi thiết bị</span>
+                  <span>Ứng dụng cài đặt trên Ios và Android</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -109,7 +105,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Phân tích thị trường chi tiết và chính xác</span>
+                  <span>Dự báo sóng thị trường</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -117,7 +113,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Tốc độ giao dịch nhanh vượt trội</span>
+                  <span>Xác định dòng tiền sóng ngành</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -125,7 +121,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Bảo mật thông tin khách hàng tuyệt đối</span>
+                  <span>Dữ liệu trực tuyến</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -133,7 +129,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Hỗ trợ 24/7 bởi đội ngũ chuyên gia</span>
+                  <span>Tích hợp AI</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -141,7 +137,7 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Tích hợp hệ thống báo cáo thông minh</span>
+                  <span>Sản phẩm của thị trường chứng khoáng VN</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <img
@@ -149,13 +145,13 @@ const Hero: React.FC = () => {
                     alt="Check"
                     className="w-6 h-6"
                   />
-                  <span>Hỗ trợ kết nối API với các ứng dụng khác</span>
+                  <span>Hỗ trợ 24/7</span>
                 </li>
               </ul>
             </div>
             <div className="flex-1">
               <img
-                src="/images/stock-features.png"
+                src="/images/stock.png"
                 alt="Stock Features Illustration"
                 className="w-full max-w-md mx-auto rounded-lg"
               />
@@ -166,7 +162,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-white text-purple-900">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <h2 className="text-3xl font-bold uppercase leading-normal">
-            Vì Sao Nên Giao Dịch Trên Nền Tảng Của Chúng Tôi
+            Vì Sao Nên Giao Dịch Trên Ứng Dụng Của Chúng Tôi
           </h2>
           <div className="h-1 w-16 bg-purple-500 mx-auto my-4"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
@@ -176,9 +172,9 @@ const Hero: React.FC = () => {
                 alt="Giao dịch nhanh chóng"
                 className="w-16 h-16 mb-4"
               />
-              <h3 className="text-xl font-semibold">Giao dịch nhanh chóng</h3>
+              <h3 className="text-xl font-semibold">Dự báo chuẩn xác</h3>
               <p className="mt-2 text-sm">
-                Đặt lệnh mua và bán trong tích tắc với tốc độ xử lý vượt trội.
+                Tính hiệu dự báo sớm từ 1 đến 2 phiên giao dịch.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -187,21 +183,20 @@ const Hero: React.FC = () => {
                 alt="Bảo mật cao"
                 className="w-16 h-16 mb-4"
               />
-              <h3 className="text-xl font-semibold">Bảo mật cao</h3>
+              <h3 className="text-xl font-semibold">Dễ sử dụng</h3>
               <p className="mt-2 text-sm">
-                Đảm bảo thông tin và giao dịch của bạn luôn an toàn tuyệt đối.
+                Hệ thống dữ liệu phân tích trực quan.
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">  
               <img
                 src="/images/icon-market.png"
                 alt="Phân tích thị trường"
                 className="w-16 h-16 mb-4"
               />
-              <h3 className="text-xl font-semibold">Phân tích thị trường</h3>
+              <h3 className="text-xl font-semibold">Nguyên tắc rõ ràng</h3>
               <p className="mt-2 text-sm">
-                Công cụ phân tích hiện đại hỗ trợ bạn đưa ra quyết định chính
-                xác.
+                Dựa vào 3 yếu tố: sóng thị trường, sóng ngành và chiến lược giải ngân.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -210,9 +205,9 @@ const Hero: React.FC = () => {
                 alt="Hỗ trợ 24/7"
                 className="w-16 h-16 mb-4"
               />
-              <h3 className="text-xl font-semibold">Hỗ trợ 24/7</h3>
+              <h3 className="text-xl font-semibold">Dữ liệu độc quyền</h3>
               <p className="mt-2 text-sm">
-                Đội ngũ hỗ trợ khách hàng chuyên nghiệp luôn sẵn sàng giúp bạn.
+                Các mô hình được tích hợp trên dữ liệu độc quyền của StockTrader AI.
               </p>
             </div>
           </div>
@@ -221,11 +216,10 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-purple-50">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <h2 className="text-3xl font-bold uppercase text-purple-900 leading-normal">
-            Quy Trình Giao Dịch Chứng Khoán
+            Quy Trình Hướng Dẫn Sử Dụng
           </h2>
           <div className="h-1 w-16 bg-purple-300 mx-auto my-4"></div>
           <div className="flex flex-col lg:flex-row justify-center mt-8">
-            {/* Step 1 */}
             <div className="flex-1 px-4 py-6">
               <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 1
@@ -234,31 +228,27 @@ const Hero: React.FC = () => {
                 Đăng Ký Tài Khoản
               </h3>
               <p className="mt-2 text-gray-600">
-                Đăng ký tài khoản giao dịch để bắt đầu hành trình đầu tư của
-                bạn.
+                Đăng ký thành viên StockTraders AI.
               </p>
             </div>
-            {/* Step 2 */}
             <div className="flex-1 px-4 py-6">
               <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 2
               </div>
               <h3 className="text-xl font-semibold text-purple-900">
-                Nạp Tiền Giao Dịch
+                Đọc Tài Liệu
               </h3>
               <p className="mt-2 text-gray-600">
-                Thêm vốn vào tài khoản giao dịch để bắt đầu mua và bán cổ phiếu.
+                Tìm hiểu nguyên lý đầu tư theo StockTraders AI.
               </p>
             </div>
-            {/* Step 3 */}
             <div className="flex-1 px-4 py-6">
               <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-semibold text-purple-900">Giao Dịch</h3>
+              <h3 className="text-xl font-semibold text-purple-900">Ứng Dụng</h3>
               <p className="mt-2 text-gray-600">
-                Mua và bán cổ phiếu theo thời gian thực với công cụ hỗ trợ mạnh
-                mẽ.
+                Tham khảo tín hiệu từ ứng dụng và ra quyết định đầu tư.
               </p>
             </div>
             {/* Step 4 */}
@@ -270,7 +260,7 @@ const Hero: React.FC = () => {
                 Theo Dõi Danh Mục
               </h3>
               <p className="mt-2 text-gray-600">
-                Theo dõi danh mục đầu tư của bạn và tối ưu hóa lợi nhuận.
+                Theo dõi và điều chỉnh danh mục đầu tư phù hợp.
               </p>
             </div>
           </div>

@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
               <img
                 src="/images/logo.png"
                 alt="Logo"
-                className="w-16 h-16 object-contain"
+                className="w-20 h-20 object-contain mr-3"
               />
               <div>
-                <h2 className="font-bold text-lg">StockTradersAI</h2>
+                <h2 className="font-bold text-lg">StockTraders AI</h2>
                 <p className="text-sm">
                   Website:{" "}
                   <a
@@ -23,16 +23,16 @@ const Footer: React.FC = () => {
                     rel="noopener noreferrer"
                     className="hover:underline text-blue-300"
                   >
-                    www.StockTradersAI.com
+                    www.stocktraders.vn
                   </a>
                 </p>
                 <p className="text-sm">
                   Email:{" "}
                   <a
-                    href="mailto:eservices@StockTraderAI.com"
+                    href=""
                     className="hover:underline text-blue-300"
                   >
-                    eservices@StockTradersAI.com
+                    info@stocktraders.vn
                   </a>
                 </p>
                 <p className="text-sm">Phone: 0908070605</p>
@@ -202,7 +202,7 @@ const Footer: React.FC = () => {
 
             {/* Address */}
             <div className="text-center lg:text-right text-sm">
-              <p>123 StockTradersAI Street, Ho Chi Minh City</p>
+              <p>62 Trần Quang Khải, Phường Tân Định, Q1, TP Hồ Chí Minh</p>
               <p>Vietnam</p>
             </div>
 
@@ -224,8 +224,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 border-t border-gray-600 pt-4">
           <p className="text-center text-xs text-gray-400">
-            &copy; 2024 StockTraders AI. All rights reserved. Designed by Your
-            Team.
+            &copy; 2024 StockTraders AI. All rights reserved. Designed by StockTraders AI.
           </p>
         </div>
       </div>

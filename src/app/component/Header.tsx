@@ -22,7 +22,7 @@ const Header: React.FC = () => {
           />
         </a>
         <div className="hidden md:flex">
-          <h1 className="text-white mt-[4px] mr-5">StockTradersAI</h1>
+          <h1 className="text-white mt-[4px] mr-5">StockTraders AI</h1>
         </div>
         {/* <button
           className="block md:hidden text-white focus:outline-none"
