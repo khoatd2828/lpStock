@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-purple-900 text-white py-8">
+    <footer className="bg-purple-950 text-white py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0">
           {/* Logo & Contact Info */}
@@ -58,22 +58,34 @@ const Footer: React.FC = () => {
               <h3 className="font-bold text-md">Khám phá</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Trang chủ
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Giới thiệu
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Triết lý đầu tư
                   </a>
                 </li>
@@ -85,17 +97,26 @@ const Footer: React.FC = () => {
               <h3 className="font-bold text-md">Quản trị danh mục</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Xác định điểm mua
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Chiến lược giải ngân
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Kiểm soát cảm xúc
                   </a>
                 </li>
@@ -107,22 +128,34 @@ const Footer: React.FC = () => {
               <h3 className="font-bold text-md">Kiến thức</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Mô hình Nến thông dụng
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Harmonic Pattern
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Phân tích kỹ thuật
                   </a>
                 </li>
@@ -134,12 +167,18 @@ const Footer: React.FC = () => {
               <h3 className="font-bold text-md">Hỗ trợ</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Giải đáp thắc mắc
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-blue-300">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 text-white transition"
+                  >
                     Liên hệ
                   </a>
                 </li>
@@ -150,33 +189,21 @@ const Footer: React.FC = () => {
           <div className="flex flex-col space-y-6 items-center lg:items-end">
             {/* Social Media */}
             <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/facebook.png"
                   alt="Facebook"
                   className="w-8 h-8 hover:opacity-80"
                 />
               </a>
-              <a
-                href="https://zalo.me"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/zalo.png"
                   alt="Zalo"
                   className="w-8 h-8 hover:opacity-80"
                 />
               </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/youtube.png"
                   alt="YouTube"
