@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
               <img
                 src="/images/logo.png"
                 alt="Logo"
-                className="w-20 h-20 object-contain mr-3"
+                className="w-[150px] h-[150px] object-contain mr-3"
               />
               <div>
                 <h2 className="font-bold text-lg">StockTraders AI</h2>

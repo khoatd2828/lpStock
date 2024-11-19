@@ -3,32 +3,34 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <div>
-      <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex">
-        <div className="relative w-full container mx-auto grid grid-cols-1 lg:grid-cols-[2fr_3fr] items-center gap-10 md:gap-0">
-          <img
-            src="/images/logo.png"
-            alt="Logo"
-            className="absolute top-[230px] left-[19%] transform -translate-x-1/2 -translate-y-1/2 w-[200px] md:w-[600px] h-auto"
-          />
-          <div className="pt-16 md:pt-20 px-3 md:px-0 z-10">
-            <h1 className="text-6xl font-bold leading-tight">
-              Ứng dụng khuyến nghị trực tuyến <br />
+      <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex pt-[150px]">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 px-6 items-start">
+          <div className="lg:col-span-5 flex flex-col items-center lg:items-start text-center lg:text-left">
+            <img
+              src="/images/logo.png"
+              alt="Logo"
+              className="w-[300px] md:w-[600px] h-auto mb-10"
+            />
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              Ứng dụng khuyến nghị trực tuyến
             </h1>
             <p className="mt-6 text-lg">
               Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu
               hoàn toàn miễn phí. Ưu điểm vượt trội là nhanh và đạt hiệu quả cao
-              trên thị trường cổ phiếu Việt Nam
+              trên thị trường cổ phiếu Việt Nam.
             </p>
           </div>
-          <div className="flex justify-center lg:justify-end pb-12 z-10">
+
+          <div className="lg:col-span-7 flex justify-center">
             <img
               src="/images/stock-features.png"
               alt="Chart Illustration"
-              className="w-[1000px] h-auto rounded-lg"
+              className="w-full max-w-[800px] h-auto rounded-lg"
             />
           </div>
         </div>
       </section>
+
       <section className="py-16 bg-white text-purple-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold leading-normal">
