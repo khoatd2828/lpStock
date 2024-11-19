@@ -4,13 +4,13 @@ const Hero: React.FC = () => {
   return (
     <div>
       <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex">
-        <div className="w-full container mx-auto grid grid-cols-1 lg:grid-cols-[2fr_3fr] items-center gap-10 md:gap-0">
-          <div className="pt-16 md:pt-0 px-3 md:px-0">
-            <img
-              src="/images/logo.png"
-              alt="Logo"
-              className="w-[100px] md:w-[200px] h-auto mb-10"
-            />
+        <div className="relative w-full container mx-auto grid grid-cols-1 lg:grid-cols-[2fr_3fr] items-center gap-10 md:gap-0">
+          <img
+            src="/images/logo.png"
+            alt="Logo"
+            className="absolute top-[230px] left-[19%] transform -translate-x-1/2 -translate-y-1/2 w-[200px] md:w-[600px] h-auto"
+          />
+          <div className="pt-16 md:pt-20 px-3 md:px-0 z-10">
             <h1 className="text-6xl font-bold leading-tight">
               Ứng dụng khuyến nghị trực tuyến <br />
             </h1>
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
               trên thị trường cổ phiếu Việt Nam
             </p>
           </div>
-          <div className="flex justify-center lg:justify-end pb-16">
+          <div className="flex justify-center lg:justify-end pb-12 z-10">
             <img
               src="/images/stock-features.png"
               alt="Chart Illustration"
