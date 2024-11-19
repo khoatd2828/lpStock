@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center px-6 md:gap-20 gap-10">
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
-              STOCK EXCHANGE <br />
+              StockTrader AI <br />
               <span className="text-purple-300">PLATFORM</span>
             </h1>
             <p className="mt-6 text-lg">

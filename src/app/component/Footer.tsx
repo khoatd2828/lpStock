@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                 className="w-16 h-16 object-contain"
               />
               <div>
-                <h2 className="font-bold text-lg">STOCK EXCHANGE</h2>
+                <h2 className="font-bold text-lg">StockTrader AI</h2>
                 <p className="text-sm">
                   Website:{" "}
                   <a
@@ -214,7 +214,7 @@ const Footer: React.FC = () => {
 
             {/* Address */}
             <div className="text-center lg:text-right text-sm">
-              <p>123 Stock Exchange Street, Ho Chi Minh City</p>
+              <p>123 StockTrader AI Street, Ho Chi Minh City</p>
               <p>Vietnam</p>
             </div>
 
@@ -236,7 +236,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 border-t border-gray-600 pt-4">
           <p className="text-center text-xs text-gray-400">
-            &copy; 2024 STOCK EXCHANGE. All rights reserved. Designed by Your
+            &copy; 2024 StockTrader AI. All rights reserved. Designed by Your
             Team.
           </p>
         </div>
