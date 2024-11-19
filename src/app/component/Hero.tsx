@@ -3,7 +3,7 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <div>
-      <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex pt-[150px]">
+      <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex md:pt-[150px] pt-[60px]">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 px-6 items-start">
           <div className="lg:col-span-5 flex flex-col items-center lg:items-start text-center lg:text-left">
             <img
