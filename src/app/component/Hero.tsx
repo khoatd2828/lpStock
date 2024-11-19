@@ -6,11 +6,18 @@ const Hero: React.FC = () => {
       <section className="relative bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500 text-white min-h-screen flex">
         <div className="w-full container mx-auto grid grid-cols-1 lg:grid-cols-[2fr_3fr] items-center gap-10 md:gap-0">
           <div className="pt-16 md:pt-0 px-3 md:px-0">
+            <img
+              src="/images/logo.png"
+              alt="Logo"
+              className="w-[100px] md:w-[200px] h-auto mb-10"
+            />
             <h1 className="text-6xl font-bold leading-tight">
               Ứng dụng khuyến nghị trực tuyến <br />
             </h1>
             <p className="mt-6 text-lg">
-              Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu hoàn toàn miễn phí. Ưu điểm vượt trội là nhanh và đạt hiệu quả cao trên thị trường cổ phiếu Việt Nam
+              Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu
+              hoàn toàn miễn phí. Ưu điểm vượt trội là nhanh và đạt hiệu quả cao
+              trên thị trường cổ phiếu Việt Nam
             </p>
           </div>
           <div className="flex justify-center lg:justify-end pb-16">
@@ -25,7 +32,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-white text-purple-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold leading-normal">
-            SỰ KHÁC BIỆT TRONG STOCKTRADERS AI CỦA CHÚNG TÔI
+            SỰ KHÁC BIỆT CỦA CHÚNG TÔI
           </h2>
           <p className="mt-2 text-purple-600">
             Cùng khám phá những lợi ích vượt trội
@@ -40,9 +47,7 @@ const Hero: React.FC = () => {
               className="w-24 h-24 mb-4"
             />
             <h3 className="font-bold text-lg">MIỄN PHÍ</h3>
-            <p className="mt-2 text-sm">
-              Sử dung bộ tín hiệu miễn phí 100%.
-            </p>
+            <p className="mt-2 text-sm">Sử dung bộ tín hiệu miễn phí 100%.</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <img
@@ -74,9 +79,7 @@ const Hero: React.FC = () => {
             <h2 className="text-3xl font-bold uppercase leading-normal">
               CÁC TÍNH NĂNG CỦA ỨNG DỤNG
             </h2>
-            <p className="mt-2 text-purple-600">
-              Sử dụng bộ tín hiệu miễn phí
-            </p>
+            <p className="mt-2 text-purple-600">Sử dụng bộ tín hiệu miễn phí</p>
             <div className="h-1 w-16 bg-purple-600 mx-auto mt-4"></div>
           </div>
           <div className="flex md:flex-row flex-wrap flex-col items-start mx-4 md:mx-0">
@@ -153,7 +156,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-white text-purple-900">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <h2 className="text-3xl font-bold uppercase leading-normal">
-            Vì Sao Nên Giao Dịch Trên Ứng Dụng Của Chúng Tôi
+            VÌ SAO NÊN CHỌN ỨNG DỤNG CỦA CHÚNG TÔI
           </h2>
           <div className="h-1 w-16 bg-purple-500 mx-auto my-4"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
@@ -179,7 +182,7 @@ const Hero: React.FC = () => {
                 Hệ thống dữ liệu phân tích trực quan.
               </p>
             </div>
-            <div className="flex flex-col items-center">  
+            <div className="flex flex-col items-center">
               <img
                 src="/images/icon-market.png"
                 alt="Phân tích thị trường"
@@ -187,7 +190,8 @@ const Hero: React.FC = () => {
               />
               <h3 className="text-xl font-semibold">Nguyên tắc rõ ràng</h3>
               <p className="mt-2 text-sm">
-                Dựa vào 3 yếu tố: sóng thị trường, sóng ngành và chiến lược giải ngân.
+                Dựa vào 3 yếu tố: sóng thị trường, sóng ngành và chiến lược giải
+                ngân.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -198,7 +202,8 @@ const Hero: React.FC = () => {
               />
               <h3 className="text-xl font-semibold">Dữ liệu độc quyền</h3>
               <p className="mt-2 text-sm">
-                Các mô hình được tích hợp trên dữ liệu độc quyền của StockTrader AI.
+                Các mô hình được tích hợp trên dữ liệu độc quyền của StockTrader
+                AI.
               </p>
             </div>
           </div>
@@ -207,7 +212,7 @@ const Hero: React.FC = () => {
       <section className="py-16 bg-purple-50">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <h2 className="text-3xl font-bold uppercase text-purple-900 leading-normal">
-            Quy Trình Hướng Dẫn Sử Dụng
+            QUY TRÌNH HƯỚNG DẪN SỬ DỤNG
           </h2>
           <div className="h-1 w-16 bg-purple-300 mx-auto my-4"></div>
           <div className="flex flex-col lg:flex-row justify-center mt-8">
@@ -237,7 +242,9 @@ const Hero: React.FC = () => {
               <div className="flex items-center justify-center w-16 h-16 bg-purple-900 text-white rounded-full text-2xl mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-semibold text-purple-900">Ứng Dụng</h3>
+              <h3 className="text-xl font-semibold text-purple-900">
+                Ứng Dụng
+              </h3>
               <p className="mt-2 text-gray-600">
                 Tham khảo tín hiệu từ ứng dụng và ra quyết định đầu tư.
               </p>
