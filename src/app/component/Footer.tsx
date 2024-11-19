@@ -35,7 +35,6 @@ const Footer: React.FC = () => {
                     info@stocktradersai.vn
                   </a>
                 </p>
-                <p className="text-sm">Phone: 0908070605</p>
               </div>
             </div>
           </div>
