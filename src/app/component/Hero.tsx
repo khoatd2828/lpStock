@@ -8,7 +8,6 @@ const Hero: React.FC = () => {
           <div className="pt-16 md:pt-0">
             <h1 className="text-6xl font-bold leading-tight">
               Ứng dụng khuyến nghị trực tuyến <br />
-              <span className="font-bold">STOCKTRADERS AI</span>
             </h1>
             <p className="mt-6 text-lg">
               Hệ thống sử dụng dữ liệu realtime, khuyến nghị đầu tư cổ phiếu.
