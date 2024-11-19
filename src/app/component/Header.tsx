@@ -1,6 +1,3 @@
-"use client";
-import { useState } from "react";
-
 const Header: React.FC = () => {
   // const [activeButton, setActiveButton] = useState<string>("");
 
